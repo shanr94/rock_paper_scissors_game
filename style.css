@@ -64,3 +64,46 @@ img {
   padding: 1rem;
   border-radius: 1rem;
 }
+
+@media screen and (max-width: 570px) and (min-width: 430px) {
+  .choices {
+    gap: 1rem;
+  }
+  .choice {
+    height: 100px;
+    width: 100px;
+  }
+  img {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media screen and (max-width: 430px) {
+  h1 {
+    font-size: 24px;
+    height: 10vmin;
+    line-height: 10vmin;
+  }
+  #userScore,
+  #compScore {
+    font-size: 4rem;
+  }
+  #result {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+  .choices {
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .choice {
+    height: 100px;
+    width: 100px;
+  }
+  img {
+    height: 100px;
+    width: 100px;
+  }
+}

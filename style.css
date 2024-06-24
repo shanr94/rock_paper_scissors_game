@@ -55,6 +55,10 @@ img {
 }
 #resultContainer {
   margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 #result {
   background-color: #023047;
@@ -64,21 +68,7 @@ img {
   padding: 1rem;
   border-radius: 1rem;
 }
-
-@media screen and (max-width: 570px) and (min-width: 430px) {
-  .choices {
-    gap: 1rem;
-  }
-  .choice {
-    height: 100px;
-    width: 100px;
-  }
-  img {
-    height: 100px;
-    width: 100px;
-  }
-}
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 668px) {
   h1 {
     font-size: 24px;
     height: 10vmin;
@@ -94,6 +84,21 @@ img {
   p {
     font-size: 2rem;
   }
+}
+@media screen and (max-width: 570px) and (min-width: 430px) {
+  .choices {
+    gap: 1rem;
+  }
+  .choice {
+    height: 100px;
+    width: 100px;
+  }
+  img {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media screen and (max-width: 430px) {
   .choices {
     gap: 1rem;
     flex-wrap: wrap;
